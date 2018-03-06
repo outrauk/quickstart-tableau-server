@@ -21,15 +21,18 @@
         },
         "SmtpUrl": {
             "Type": "String",
-            "Description": "SMTP server to use for notifications (port 25, no SSL)"
+            "Description": "SMTP server to use for notifications (port 25, no SSL)",
+            "Default": "outra-co-uk.mail.protection.outlook.com"
         },
         "SmtpFromAddress": {
             "Type": "String",
-            "Description": "Address from which notifications come"
+            "Description": "Address from which notifications come",
+            "Default": "tableau@outra.co.uk"
         },
         "SmtpAlertToAddress": {
             "Type": "String",
-            "Description": "Address to which server alerts are sent"
+            "Description": "Address to which server alerts are sent",
+            "Default": "awsaccount-dev@outra.co.uk"
         },
         "SmtpUserName": {
             "Type": "String",
@@ -46,43 +49,55 @@
             "Type": "AWS::EC2::KeyPair::KeyName"
         },
         "RegCity": {
-            "Type": "String"
+            "Type": "String",
+            "Default": "London"
         },
         "RegCompany": {
-            "Type": "String"
+            "Type": "String",
+            "Default": "Outra Ltd"
         },
         "RegCountry": {
-            "Type": "String"
+            "Type": "String",
+            "Default": "UK"
         },
         "RegDepartment": {
-            "Type": "String"
+            "Type": "String",
+            "Default": "Technology"
         },
         "RegEmail": {
             "MinLength": "1",
-            "Type": "String"
+            "Type": "String",
+            "Default": "it@outra.co.uk"
         },
         "RegFirstName": {
             "MinLength": "1",
-            "Type": "String"
+            "Type": "String",
+            "Default": "Cyril"
         },
         "RegIndustry": {
-            "Type": "String"
+            "Type": "String",
+            "Default": "Big Data"
         },
         "RegLastName": {
             "MinLength": "1",
-            "Type": "String"
+            "Type": "String",
+            "Default": "Law"
         },
         "RegPhone": {
-            "Type": "String"
+            "Type": "String",
+            "Default": ""
         },
         "RegState": {
-            "Type": "String"
+            "Type": "String",
+            "Default": ""
         },
         "RegTitle": {
-            "Type": "String"
+            "Type": "String",
+            "Default": ""
         },
         "RegZip": {
-            "Type": "String"
+            "Type": "String",
+            "Default": "SW1 00XF"
         },
         "TableauServerLicenseKey": {
             "Description": "License Key (leave blank for trial)",
@@ -111,7 +126,7 @@
         "DataVolumeSize": {
             "Description": "The size of this server's Data volume in GB",
             "Type": "Number",
-            "Default": "100"
+            "Default": "1000"
         }
     },
     "Metadata": {

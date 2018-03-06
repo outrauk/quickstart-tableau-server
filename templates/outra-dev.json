@@ -1,106 +1,114 @@
 [
-    {
-        "ParameterKey": "RegIndustry",
-        "ParameterValue": "Big Data"
-    },
-    {
-        "ParameterKey": "VPCID",
-        "ParameterValue": "vpc-2a23fa4c"
-    },
-    {
-        "ParameterKey": "RegLastName",
-        "ParameterValue": "Law"
-    },
-    {
-        "ParameterKey": "RegPhone",
-        "ParameterValue": ""
-    },
-    {
-        "ParameterKey": "RegFirstName",
-        "ParameterValue": "Cyril"
-    },
-    {
-        "ParameterKey": "RegTitle",
-        "ParameterValue": ""
-    },
-    {
-        "ParameterKey": "RegDepartment",
-        "ParameterValue": "Technology"
-    },
-    {
-        "ParameterKey": "SmtpFromAddress",
-        "ParameterValue": "tableau@outra.co.uk"
-    },
-    {
-        "ParameterKey": "RegCompany",
-        "ParameterValue": "Outra Ltd"
-    },
-    {
-        "ParameterKey": "RegCity",
-        "ParameterValue": "London"
-    },
-    {
-        "ParameterKey": "ResourceAvailabilityZone",
-        "ParameterValue": "eu-west-1a"
-    },
-    {
-        "ParameterKey": "TableauServerLicenseKey",
-        "ParameterValue": ""
-    },
-    {
-        "ParameterKey": "KeyPairName",
-        "ParameterValue": "OutraCloudFormationDev"
-    },
-    {
-        "ParameterKey": "RegZip",
-        "ParameterValue": "SW1 00XF"
-    },
-    {
-        "ParameterKey": "AWSPublicFQDN",
-        "ParameterValue": "ire-tableau-a-7.int.outra.co."
-    },
-    {
-        "ParameterKey": "SmtpUrl",
-        "ParameterValue": "outra-co-uk.mail.protection.outlook.com"
-    },
-    {
-        "ParameterKey": "SmtpPassword",
-        "ParameterValue": ""
-    },
-    {
-        "ParameterKey": "PrimarySubnetID",
-        "ParameterValue": "subnet-0a724d51"
-    },
-    {
-        "ParameterKey": "SmtpUserName",
-        "ParameterValue": ""
-    },
-    {
-        "ParameterKey": "RegCountry",
-        "ParameterValue": "UK"
-    },
-    {
-        "ParameterKey": "InstanceSecurityGroup",
-        "ParameterValue": "sg-62d56218"
-    },
-    {
-        "ParameterKey": "RegEmail",
-        "ParameterValue": "it@outra.co.uk"
-    },
-    {
-        "ParameterKey": "ServerName",
-        "ParameterValue": "ire-tableau-a-dev-7"
-    },
-    {
-        "ParameterKey": "SmtpAlertToAddress",
-        "ParameterValue": "awsaccount-dev@outra.co.uk"
-    },
-    {
-        "ParameterKey": "RegState",
-        "ParameterValue": ""
-    },
-    {
-        "ParameterKey": "ContentAdminUser",
-        "ParameterValue": "admin"
-    }
+  {
+    "ParameterKey": "RegIndustry",
+    "ParameterValue": "Big Data"
+  },
+  {
+    "ParameterKey": "VPCID",
+    "ParameterValue": "vpc-2a23fa4c"
+  },
+  {
+    "ParameterKey": "RegLastName",
+    "ParameterValue": "Law"
+  },
+  {
+    "ParameterKey": "RegPhone",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "RegFirstName",
+    "ParameterValue": "Cyril"
+  },
+  {
+    "ParameterKey": "RegTitle",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "RegDepartment",
+    "ParameterValue": "Technology"
+  },
+  {
+    "ParameterKey": "SmtpFromAddress",
+    "ParameterValue": "tableau@outra.co.uk"
+  },
+  {
+    "ParameterKey": "RegCompany",
+    "ParameterValue": "Outra Ltd"
+  },
+  {
+    "ParameterKey": "PublicPortalUrl",
+    "ParameterValue": "http://tableau.int.outra.co.uk"
+  },
+  {
+    "ParameterKey": "DataVolumeSize",
+    "ParameterValue": "1000"
+  },
+  {
+    "ParameterKey": "ContentAdminPassword",
+    "ParameterValue": "****"
+  },
+  {
+    "ParameterKey": "RegCity",
+    "ParameterValue": "London"
+  },
+  {
+    "ParameterKey": "TableauServerLicenseKey",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "ResourceAvailabilityZone",
+    "ParameterValue": "eu-west-1a"
+  },
+  {
+    "ParameterKey": "KeyPairName",
+    "ParameterValue": "OutraCloudFormationDev"
+  },
+  {
+    "ParameterKey": "RegZip",
+    "ParameterValue": "SW1 00XF"
+  },
+  {
+    "ParameterKey": "SmtpUrl",
+    "ParameterValue": "outra-co-uk.mail.protection.outlook.com"
+  },
+  {
+    "ParameterKey": "SmtpPassword",
+    "ParameterValue": "****"
+  },
+  {
+    "ParameterKey": "PrimarySubnetID",
+    "ParameterValue": "subnet-0a724d51"
+  },
+  {
+    "ParameterKey": "SmtpUserName",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "RegCountry",
+    "ParameterValue": "UK"
+  },
+  {
+    "ParameterKey": "InstanceSecurityGroup",
+    "ParameterValue": "sg-62d56218"
+  },
+  {
+    "ParameterKey": "RegEmail",
+    "ParameterValue": "it@outra.co.uk"
+  },
+  {
+    "ParameterKey": "ServerName",
+    "ParameterValue": "ire-tableau-a-dev-8"
+  },
+  {
+    "ParameterKey": "SmtpAlertToAddress",
+    "ParameterValue": "awsaccount-dev@outra.co.uk"
+  },
+  {
+    "ParameterKey": "RegState",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "ContentAdminUser",
+    "ParameterValue": "admin"
+  }
 ]
