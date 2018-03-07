@@ -101,7 +101,8 @@
         },
         "TableauServerLicenseKey": {
             "Description": "License Key (leave blank for trial)",
-            "Type": "String"
+            "Type": "String",
+            "NoEcho": "true"
         },
         "ResourceAvailabilityZone": {
             "Description": "The availability zone in which our server and storage volume reside",
