@@ -97,7 +97,7 @@
   },
   {
     "ParameterKey": "ServerName",
-    "ParameterValue": "ire-tableau-a-dev-8"
+    "ParameterValue": "ire-tableau-a-dev-9"
   },
   {
     "ParameterKey": "SmtpAlertToAddress",
