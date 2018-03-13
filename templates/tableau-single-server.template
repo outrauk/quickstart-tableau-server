@@ -128,6 +128,13 @@
             "Description": "The size of this server's Data volume in GB",
             "Type": "Number",
             "Default": "1000"
+        },
+        "InstanceType": {
+            "Type": "String",
+            "Default": "m4.4xlarge",
+            "AllowedValues": ["m4.4xlarge", "m4.xlarge"],
+            "ConstraintDescription": "Must be a valid EC2 instance type.",
+            "Description": "Instance type for this server. Default is m4.4xlarge. Minimum is m4.xlarge. See https://onlinehelp.tableau.com/current/server/en-us/server_hardware_min.htm for AWS details."
         }
     },
     "Metadata": {
@@ -145,7 +152,8 @@
                         "VPCID",
                         "PrimarySubnetID",
                         "PublicPortalUrl",
-                        "DataVolumeSize"
+                        "DataVolumeSize",
+                        "InstanceType"
                     ]
                 },
                 {
@@ -277,6 +285,9 @@
                 },
                 "DataVolumeSize": {
                     "default": "Size in GB"
+                },
+                "InstanceType": {
+                    "default": "Type of EC2 instance"
                 }
             }
         }
@@ -335,7 +346,6 @@
                 "InstallationExecutable": "Setup-Server-x64.exe"
             },
             "MachineConfiguration": {
-                "InstanceType": "m4.4xlarge",
                 "SystemVolumeSize": 50,
                 "WindowsVersion": "WS2012R2"
             }
@@ -572,11 +582,7 @@
             },
             "Properties": {
                 "InstanceType": {
-                    "Fn::FindInMap": [
-                        "DefaultConfiguration",
-                        "MachineConfiguration",
-                        "InstanceType"
-                    ]
+                    "Ref" : "InstanceType"
                 },
                 "ImageId": {
                     "Fn::FindInMap": [
