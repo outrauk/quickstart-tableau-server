@@ -12,3 +12,18 @@ The Tableau Server cluster (multi-node) deployment installs Tableau Server on th
 
 
 Deployment Guide: https://s3.amazonaws.com/quickstart-reference/tableau/server/latest/doc/tableau-server-on-the-aws-cloud.pdf
+
+
+# Template Information
+
+To pull an existing stack's parameters (make sure to edit password fields):
+
+```bash
+$ aws cloudformation describe-stacks --stack-name "Tableau-Server-Dev-Cf-7" --profile outra-dev | jq '.Stacks[0].Parameters' > templates/some-emv.json
+```
+
+To validate a template:
+
+```bash
+$ aws cloudformation validate-template --template-body file://templates/tableau-single-server.template
+```
